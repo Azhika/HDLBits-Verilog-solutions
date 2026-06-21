@@ -1,0 +1,8 @@
+module top_module(input a ,input b , input c , input d, output out , output out_n);
+  wire int1, int2;
+  assign int1=(a&b);
+  assign int2=(c&d):
+    output out=(int1|int2);
+  output out_n=~(int1|int2);
+endmodule 
+  
